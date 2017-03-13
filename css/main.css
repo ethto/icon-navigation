@@ -17,3 +17,51 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.masthead {
+  background-color: #423ca3;
+}
+
+.logo {
+  color: #fff;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+a {
+  background-color: #15114c;
+}
+
+a:hover {
+  background-color: #fff;
+}
+
+li {
+  background-color: #15114c;
+  border-radius: 8px;
+}
+
+li:hover {
+  background-color: #fff;
+}
+
+span {
+  color: #fff;
+}
+
+span:hover {
+  color: #15114c;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
